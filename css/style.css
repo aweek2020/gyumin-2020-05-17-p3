@@ -1,0 +1,100 @@
+html{background: #fffcf0; scroll-behavior: smooth;}
+		h1{font-family: 'Noto Sans KR', sans-serif; font-size: 1.5rem; font-weight: 700; color: #07549c; margin:0px;}
+		h2{font-family: 'Noto Serif KR', serif; font-size: 3rem; font-weight: 700; margin:0px;}
+		h3{font-family: 'Lora', serif; font-size: 3rem; font-weight: 600; margin:0px;}
+		h4{font-family: 'Noto Sans KR', sans-serif; font-weight: 500; margin:0px;}
+		p{font-family: 'Noto Serif KR', serif; font-weight: 500; margin:0px;}
+		section{margin:0px;}
+		header{margin:0px; }
+		div{margin:0px;}
+		body{margin:0px;}
+		img{margin:0px;}
+		nav{ height: 500px margin-top:50px; z-index: 500; }
+		nav ul{width: 50px; height: 50px; margin-left:50px; background:#07549c; padding:0px; border-radius: 25px; margin-top:30px; margin-bottom:0px;}
+		nav ul li{ list-style-type:none; list-style-position: none; text-align:center; line-height: 50px;}
+		nav ul li a{display: block; color: #fffcf0;text-decoration: none; font-family: 'Noto Sans KR', sans-serif; font-size: .7em; font-weight: 500;
+					 height: 50px; width: 50px; border-radius: 25px;}
+		nav ul li a:hover{ box-shadow: none;
+	 						color:#07549c;
+	 						background:#fffcf0; 	
+	 						transition: all 0.5s;}					
+		.t-acenter{text-align: center;}
+		.t-aleft{text-align: left;}
+		.t-aright{text-align: right;}
+		.row{width: 900px; margin: auto; padding: 0px 0px; display:flex; word-break: keep-all; }
+		.rowhd{width: 1000px; margin: auto; padding: 0px 0px; display:flex; word-break: keep-all; }
+		.rowab{width: 100%; margin: auto; padding: 0px 0px; word-break: keep-all; position: relative; }
+		.rowcenter{width: 900px; margin: auto; padding: 0px 0px; word-break: keep-all; }
+		.row2{width: 900px; margin: auto; padding: 0px 0px; display:flex; word-break: keep-all; background:#07549c;  }	
+
+		.img{width: 100%; margin: auto;}
+
+		.col-0{width: 100%; margin:0px 0px;}
+		.col-1{width: 50%; margin:0px 0px;}
+		.col-2{width: 30%; margin:0px 0px;}
+		.col-3{width: 70%; margin:0px 0px;}
+		.col-4{width: 40%; margin:0px 0px;}
+		.col-5{width: 60%; margin:0px 0px;}
+
+		.p_color1{color: #07549c;}
+		.p_color2{color: #fffcf0;}
+		.p_size1{font-size: 1rem}
+		.p_size1-3{font-size: 1.3rem}
+		.p_size1-5{font-size: 1.5rem}
+		.p_size2{font-size: 2rem}
+		.p_sizehalf{font-size: .7rem}
+		.p_linehight17{line-height: 1.7;}
+		.p_linehight30{line-height: 3;}
+		.p_linehight40{line-height: 4;}
+
+		.margin100{margin-top: 100px}
+		.margin200{margin-top: 200px}
+		.margin300{margin-top: 300px}
+		.margin400{margin-top: 400px}
+		.margin500{margin-top: 500px}
+		.margin600{margin-top: 600px}
+		.margin700{margin-top: 700px}
+		.margin800{margin-top: 800px}
+		.marginb100{margin-bottom:100px;}
+		.marginb200{margin-bottom:200px;}
+		.marginb300{margin-bottom:300px;}
+		.marginb400{margin-bottom:400px;}
+		.marginb500{margin-bottom:500px;}
+		.marginb600{margin-bottom:600px;}
+		.marginb700{margin-bottom:700px;}
+
+		.paddingt100{padding-top: 100px}
+		.paddingt200{padding-top: 200px}
+		.paddingt300{padding-top: 300px}
+		.paddingb50{padding-bottom: 50px}	
+		.paddingb100{padding-bottom: 100px}
+		.paddingb200{padding-bottom: 200px}
+		
+		.backgroundblue{background:#07549c;}
+		.backgroundgr{background : linear-gradient (#07549c, #fffcf0);}
+		.bg-1{height: 900px;
+	  		background: url('../img/img_1.jpg');
+	  		background-size:100%;
+	  		background-attachment: fixed;}
+	  	.bg-2{height: 900px;
+	  		background: url('../img/img_12.jpg');
+	  		background-size:100%;
+	  		background-attachment: fixed;}  
+      	.bg-0{background:url(./img/img_1,jpg) width:100%}	
+      	.but{text-align: center;width:218px; height: 50px; border:1.5px 
+      		solid;color:#07549c; border-radius: 5px; margin-right: 10px; }
+      	.but:hover{width: 100%;transition: all 0.5s;}
+
+      	.abs1{position: absolute; }
+      	.abs2{position: absolute; width:400px; right:55%; top:25%;}
+      	.abs3{position: absolute; width:400px; left:55%; top:25%;}
+      	.abs4{position: absolute; left:55%; top:25%;}
+
+      	.fixed{position: fixed; width: 100%; top: 100px;}
+      	.sticky{position: sticky;top: 150px}
+
+
+
+      		wow fadeInLeft
+      		wow fadeInRight
+      		wow fadeInUp
